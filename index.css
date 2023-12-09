@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px;    
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+body {
+    background-image: url(img/lake-mountain-fog-mist-scenery-ai-4k-wallpaper-uhdpaper.com-709@1@l.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    display: inline-flexbox;
+
+}
+
+#campo {
+    display: flexbox;
+    color: white;
+    flex-direction: column;
+    padding: 25px;
+    width: 350px; 
+    height: 250px; 
+    margin: 100px auto;
+    text-align: center; 
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+ .label1, .label2 {
+   display: flex;
+   flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 10px;
+   
+}
+
+#campo button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-color: aliceblue;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#infor {
+    display: flexbox;
+    color: aliceblue;
+    padding: 25px;
+    width: 350px; 
+    height: 250px; 
+    margin: 100px auto;
+    margin-bottom: 10px;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    overflow: auto; /* Adicione esta linha */
+
+
+}
+
+#lista {
+    list-style-type: none;
+}
+
+#butaum {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: -40px;
+  
+}
+
+
+
+#butaum button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+    transition: .5s; /* Corrigi o valor da propriedade 'transition' */
+    margin-top: 10px;
+}
+
+
+.credits {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+#butaum button:hover {
+    padding: 10px;
+    border-radius: 12px;
+    border-color: black;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#campo button:hover {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#butaum label {
+    color: aliceblue;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    
+}
+
+
+#butaum input {
+    margin-top: 20px;
+    height: 30px;
+}
+#NAME {
+
+    margin-right: 20;
+    margin-top: 20;
+    margin-left: 0;
+}
+
+#clear {
+    margin-left: 20px;
+}
